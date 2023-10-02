@@ -1,0 +1,62 @@
+.headerContainer {
+    padding: 40px 60px;
+}
+
+.headerCard {
+    padding: 24px;
+    width: 640px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #54A6FF;
+}
+
+h2 {
+    width: 272px;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+p {
+    margin-top: 16px;
+    width: 284px;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color:#FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    border-radius: 4px;
+    background: #3563E9;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+button:hover{
+    transform: translateY(-0.2rem);
+    background-color: #2c61ff;
+}
+.car-img1{
+    margin-left: 100px;
+}
