@@ -1,0 +1,70 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+    background: #F6F7F9;
+}
+.container{
+    padding: 40px 60px;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.red {
+    color: red;
+}
+.white{
+    color: #ccc;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
+  
+  i {
+    transition: all 0.2s;
+  }
+  
+  i:hover {
+    opacity: 0.8;
+  }
+  
+  i:active {
+    transform: scale(0.90);
+  }
+  
+  .container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .pos-right {
+    margin-left: auto;
+  }
+  
+  .gap-20 {
+    gap: 20px;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }

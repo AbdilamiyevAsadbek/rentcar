@@ -1,0 +1,79 @@
+.navbar_wrapper {
+    border: 1px solid rgba(195, 212, 233, 0.40);
+    background: var(--primary-0, #FFF);
+}
+
+.navbar_wrapper .container {
+    display: flex;
+    align-items: center;
+    height: 124px;
+
+}
+
+.navbar {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbarCenter {
+    color: #596780;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 492px;
+    height: 44px;
+    border-radius: 70px;
+    border: 2px solid rgba(195, 212, 233, 0.40);
+    background: #FFF;
+    transition: all 0.2s linear;
+
+}
+
+.searchInput {
+    color: #596780;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.28px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.topbarCenter:hover {
+    border: 2px solid rgb(65, 65, 243);
+}
+
+.topbarRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.topbarIcons {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border: 2px solid rgba(195, 212, 233, 0.40);
+    opacity: 0.8;
+}
+
+.notifications{
+    position: relative;
+}
+.red_img{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.modal{
+    flex-wrap: wrap;
+}

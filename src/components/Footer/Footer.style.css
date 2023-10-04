@@ -1,0 +1,117 @@
+.footer {
+    background-color: white;
+  }
+  
+  .footerTop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  
+  .footerLeft .logo {
+    max-width: 150px;
+  }
+  
+  .footerLeft .logo a {
+    text-decoration: none;
+  }
+  
+  .footerLeft .logo h2 {
+    color: #3563E9;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 16px;
+    letter-spacing: -0.96px;
+  }
+  
+  .footerLeft .text {
+    color: rgba(19, 19, 19, 0.60);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 292px;
+    letter-spacing: -0.32px;
+  }
+  
+  .footerRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .footerRight .footerItem h2 {
+    color: #1A202C;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.4px;
+    margin-bottom: 24px;
+  }
+  
+  .footerRight .footerItem {
+    margin-right: 50px;
+  }
+  
+  .footerRight .footerItem li {
+    margin-bottom: 30px;
+    list-style: none;
+  }
+  
+  .footerRight .footerItem li a {
+    color: rgba(19, 19, 19, 0.60);
+    font-family: Plus Jakarta Sans;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+  }
+  
+  .footerRight .footerItem li a:hover {
+    text-decoration: underline;
+    color: rgba(19, 19, 19, 0.90);
+  }
+  
+  .hr {
+    background-color: rgba(19, 19, 19, 0.16);
+    height: 1px;
+    margin-top: 36px;
+    width: 100%;
+    margin-bottom: 36px;
+  }
+  
+  .footerBootom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+  
+  .footerBootom p {
+    color: #1A202C;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .footerBootom p:hover {
+    border-bottom: 1px solid #1A202C;
+  }
+  
+  .gap-60 {
+    gap: 60px;
+  }

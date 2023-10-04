@@ -1,0 +1,114 @@
+.cards_wrapper {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    padding: 24px;
+    width: 320px;
+    height: 388px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+}
+
+.text_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_car {
+    margin: 64px 12px;
+    width: 232px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.icon_links {
+    color: #90A3BF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sport {
+    color: #90A3BF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.buttons_price {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons_price span {
+    color: #1A202C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttons_price button {
+    display: flex;
+    width: 116px;
+    height: 44px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #3563E9;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.text_about {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_about h3 {
+    color: #90A3BF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text_about a {
+    color: #3563E9;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
