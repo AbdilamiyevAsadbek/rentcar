@@ -55,7 +55,6 @@ export default function CardsContent({ cars, handleLike, title, isPopular }) {
                     />
                 })}
                 </div>
-               
             </div>
         )
     }

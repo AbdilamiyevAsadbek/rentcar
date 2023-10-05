@@ -1,7 +1,7 @@
 const  cars_data = [
     {
         id:1,
-        carImg:'/src/assets/koenigsegg_car.png',
+        carImg:'/src/assets/car_img1.svg',
         status:"Koenigsegg",
         title:"Sport",
         petrol_consumption:'90L',
@@ -15,7 +15,7 @@ const  cars_data = [
     },
     {
         id:2,
-        carImg:'/src/assets/nissan-GT-R-car.png',
+        carImg:'/src/assets/car_img2.svg',
         status:"Nissan GT - R",
         title:"Sport",
         petrol_consumption:'80L',
@@ -29,7 +29,7 @@ const  cars_data = [
     },
     {
         id:3,
-        carImg:'/src/assets/royce-car.png',
+        carImg:'/src/assets/car_img3.svg',
         status:"Rolls - Royce",
         title:"Sedan",
         petrol_consumption:'70L',
@@ -44,7 +44,7 @@ const  cars_data = [
 
     {
         id:4,
-        carImg:'/src/assets/nissan-GT-R-car.png',
+        carImg:'/src/assets/car_img4.svg',
         status:"Nissan GT - R",
         title:"Sport",
         petrol_consumption:'80L',
@@ -59,7 +59,7 @@ const  cars_data = [
     
     {
         id:5,
-        carImg:'/src/assets/all-new-rash-car.png',
+        carImg:'/src/assets/car_img5.svg',
         status:"All New Rush",
         title:"suv",
         petrol_consumption:'70L',
@@ -73,7 +73,7 @@ const  cars_data = [
     },
     {
         id:6,
-        carImg:'/src/assets/CR-V-car.png',
+        carImg:'/src/assets/car_img6.svg',
         status:"CR - V",
         title:"suv",
         petrol_consumption:'80L',
@@ -88,7 +88,7 @@ const  cars_data = [
 
     {
         id:7,
-        carImg:'/src/assets/Terios-car.png',
+        carImg:'/src/assets/car_img7.svg',
         status:"All New Terios",
         title:"suv",
         petrol_consumption:'90L',
@@ -102,7 +102,7 @@ const  cars_data = [
     },
     {
         id:8,
-        carImg:'/src/assets/CR-V-black-car.png',
+        carImg:'/src/assets/car_img8.svg',
         status:"CR - V",
         title:"suv",
         petrol_consumption:'80L',
@@ -116,7 +116,7 @@ const  cars_data = [
     },
     {
         id:9,
-        carImg:'/src/assets/MGZX-Exclusice-car.png',
+        carImg:'/src/assets/car_img9.svg',
         status:"MG ZX Exclusice",
         title:"Hatchback",
         petrol_consumption:'70L',
@@ -130,7 +130,7 @@ const  cars_data = [
     },
     {
         id:10,
-        carImg:'/src/assets/new-MGZS-car.png',
+        carImg:'/src/assets/car_img10.svg',
         status:"New MG ZS",
         title:"suv",
         petrolConsumption:'80L',
@@ -144,7 +144,7 @@ const  cars_data = [
     },
     {
         id:11,
-        carImg:'/src/assets/MGZX-Excite-car.png',
+        carImg:'/src/assets/car_img11.svg',
         status:"MG ZX Excite",
         title:"Hatchback",
         petrol_consumption:'90L',
@@ -158,7 +158,7 @@ const  cars_data = [
     },
     {
         id:12,
-        carImg:'/src/assets/New-MGZS-car-2.png',
+        carImg:'/src/assets/car_img12.svg',
         status:"New MG ZS",
         title:"suv",
         petrolConsumption:'80L',

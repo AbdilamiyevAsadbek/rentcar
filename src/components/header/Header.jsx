@@ -10,23 +10,19 @@ export default function Header() {
           <h2 className='homeCardTitle'>The Best Platform for Car Rental</h2>
           <p className='cardText'>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
           <button className="homeCardBtn">Rental Car</button>
-
           <div className="img">
             <img className="homeImg" src="/src/assets/home-car-img.png" alt="home_car" />
           </div>
         </div>
-
         <div className='homeCard card_img2'>
           <h2 className='homeCardTitle'>Easy way to rent a car at a low price</h2>
           <p className='cardText'>Providing cheap car rental services and safe and comfortable facilities.</p>
           <button className="homeCardBtn btn2">Rental Car</button>
-
           <div className="img">
             <img className="homeImg2" src="/src/assets/home-car-img-2.png" alt="home_car" />
           </div>
         </div>
       </div>
-
       <div className="top-content">
         <div className="pick-up">
           <div className="pickup-title">

@@ -21,7 +21,6 @@ function App() {
     <>
       <Navbar  cars={cars} handleLike={handleLike}/>
     <Header/>
-
       <div className='container'>
         <CardsContent cars={cars} handleLike={handleLike} title={"Popular Car"} isPopular={true}/>
       </div>

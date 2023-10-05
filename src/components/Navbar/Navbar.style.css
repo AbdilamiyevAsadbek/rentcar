@@ -4,20 +4,22 @@
 }
 
 .navbar_wrapper .container {
-    display: flex;
+    /* border: 1px solid #000; */
     align-items: center;
     height: 124px;
 
 }
 
 .navbar {
-    width: inherit;
+    padding: 40px 0px;
+    /* border: 1px solid #000; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     align-items: center;
 }
 
 .topbarCenter {
+    /* border: 1px solid #000; */
     color: #596780;
     padding: 20px;
     display: flex;
