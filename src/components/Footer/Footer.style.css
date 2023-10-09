@@ -111,4 +111,26 @@
 
 .gap-60 {
   gap: 60px;
+  max-width: ;
+}
+
+/* Media screen 376px */
+@media (max-width: 376px) {
+  .footerTop{
+    
+    flex-direction: column;
+  }
+  .footerRight{
+    margin-top: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 142px !important;
+    flex-wrap: wrap;
+  }
+  .text{
+    margin-top: 30px;
+    font-size: 12px !important; 
+  }
+ 
 }

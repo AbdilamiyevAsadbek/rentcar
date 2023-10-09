@@ -24,6 +24,13 @@ export default function Header() {
         </div>
       </div>
       <div className="top-content">
+
+
+
+
+
+
+
         <div className="pick-up">
           <div className="pickup-title">
             <div className="circle">
@@ -35,26 +42,42 @@ export default function Header() {
             <div className="pick-up-card">
               <h1>Locations</h1>
               <h4>
-                <span>Select your city</span>
+                <span>Select</span>
                 <i className='fa fa-angle-down'></i>
               </h4>
             </div>
             <div className="pick-up-card">
               <h1>Date</h1>
               <h4>
-                <span>Select your date</span>
+                <span>Select</span>
                 <i className='fa fa-angle-down'></i>
               </h4>
             </div>
-            <div className="pick-up-card">
+            <div className="pick-up-card card3">
               <h1>Time</h1>
               <h4>
-                <span>Select your time</span>
+                <span>Select</span>
                 <i className='fa fa-angle-down'></i>
               </h4>
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <button className='topsection-button'><i className="fa-solid fa-right-left"></i></button>
         <div className="drop-off">
           <div className="pickup-title">
@@ -67,21 +90,21 @@ export default function Header() {
             <div className="pick-up-card">
               <h1>Locations</h1>
               <h4>
-                <span>Select your city</span>
+                <span>Select</span>
                 <i className='fa fa-angle-down'></i>
               </h4>
             </div>
             <div className="pick-up-card">
               <h1>Date</h1>
               <h4>
-                <span>Select your date</span>
+                <span>Select</span>
                 <i className='fa fa-angle-down'></i>
               </h4>
             </div>
-            <div className="pick-up-card">
+            <div className="pick-up-card card3">
               <h1>Time</h1>
               <h4>
-                <span>Select your time</span>
+                <span>Select</span>
                 <i className='fa fa-angle-down'></i>
               </h4>
             </div>

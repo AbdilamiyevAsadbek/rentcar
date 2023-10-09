@@ -33,17 +33,17 @@ export default function Navbar({ cars, handleLike}) {
         <div className='container'>
           <div className='navbar'>
             <div className="topbarLeft">
-              <img src="/src/assets/logo_navbar.svg" alt="" />
+              <img src="/src/assets/logo_navbar.svg" alt="" className='logo'/>
             </div>
             <div className="topbarCenter">
               <Search />
               <input placeholder='Search something here' className='searchInput' />
               <img src="/src/assets/filter.svg" alt="" />
             </div>
+            
             <div className='topbarRight'>
               <div className="topbarIcons">
                 <FavoriteBorderSharp onClick={handleModal} />
-
               </div>
               <div className="topbarIcons notifications">
                 <NotificationsNoneSharp />
@@ -55,8 +55,15 @@ export default function Navbar({ cars, handleLike}) {
               <img src="/src/assets/user_img.svg" alt="" />
 
             </div>
+            
           </div>
-
+          <div className="media_cards_input">
+          <div className="topbarCenter media_card" >
+              <Search />
+              <input placeholder='Search something here' className='searchInput' />
+              <img src="/src/assets/filter.svg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
 

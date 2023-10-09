@@ -12,7 +12,8 @@
   background-size: cover;
   transition: all 0.2s ease-in-out;
 }
-  .card_img2 {
+
+.card_img2 {
   background-image: url(/src/assets/Ads2-bg-img.png);
 }
 
@@ -142,7 +143,7 @@
 }
 
 .pick-up-card:not(:last-child) {
-  padding-right: 30px;
+  padding-right: 70px;
   border-right: 1px solid rgba(195, 212, 233, 0.40);
 }
 
@@ -187,4 +188,85 @@ button {
 
 button:hover {
   opacity: 0.8;
+}
+
+/* Media screen 376px */
+
+@media (max-width: 376px) {
+  .homeCard {
+    margin: 0 auto;
+    width: 327px;
+    height: 232px;
+  }
+
+  .homeCard h2 {
+    font-size: 16px;
+    letter-spacing: 0.70px;
+  }
+
+  .homeCard p {
+    width: 216px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+  }
+
+  .homeCard button {
+    width: 120px;
+    height: 35px;
+    padding: 0px 20px;
+    font-weight: 400;
+  }
+
+  .homeCard img {
+    margin-top: 23px;
+    margin-left: -130px;
+    width: 196px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+
+  .card_img2 {
+    display: none;
+  }
+
+  .pick-up, .drop-off {
+    width: 327px;
+    height: 120px;
+    flex-shrink: 0;
+  }
+
+  .pickup-title {
+    margin-top: -10px !important;
+    margin-left: -35px !important;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .pickup-title h1 {
+    color: #1A202C;
+    font-size: 16px;
+  }
+  .pick-up-cards{
+    margin-left: -50px ;
+  }
+  .pick-up-card h1{
+    font-size: 13px;
+  }
+  .card3{
+    margin-left: 20px;
+  }
+  .pick-up-card:not(:last-child) {
+    margin-left: 15px;
+    padding-right: 30px;
+  }
+  .top-content{
+    flex-direction: column;
+  }
+  .drop-off{
+    margin-top: -10px;
+  }
+  .topsection-button{
+    margin-top: -10px;
+    z-index: 100;
+  }
 }

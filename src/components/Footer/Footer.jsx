@@ -30,7 +30,7 @@ export default function Footer() {
               <li><a href="#">Podcast</a></li>
               <li><a href="#"> Invite a friend</a></li>
             </ul>
-            <ul className='footerItem'>
+            <ul className='footerItem '>
               <h2>Socials</h2>
               <li><a href="#">Socials</a></li>
               <li><a href="#">Instagram</a></li>
@@ -40,13 +40,13 @@ export default function Footer() {
           </div>
         </div>
         <div className='hr' />
-        <div className="footerBootom">
+        {/* <div className="footerBootom">
           <p>©2022 MORENT. All rights reserved</p>
           <div className='footerBottomRight d-flex gap-60'>
             <p>Privacy & Policy</p>
             <p>Terms & Condition</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
 

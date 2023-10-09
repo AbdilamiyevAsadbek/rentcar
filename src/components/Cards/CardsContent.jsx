@@ -26,7 +26,6 @@ export default function CardsContent({ cars, handleLike, title, isPopular }) {
                     />
                 })}
                 </div>
-               
             </div>
         )
     }
@@ -54,6 +53,9 @@ export default function CardsContent({ cars, handleLike, title, isPopular }) {
                         price={car.price}
                     />
                 })}
+                </div>
+                <div className='showmore_cars'>
+                <button>Show more car</button>
                 </div>
             </div>
         )

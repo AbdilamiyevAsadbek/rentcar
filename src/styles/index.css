@@ -73,12 +73,3 @@ i:active {
 .justify-between {
   justify-content: space-between;
 }
-
-/* @media (max-width: 1440px) {
-    .container{
-      display: none;
-    }
-    .topbarCenter,.topbarRight{
-      display: none;
-    }
-  } */
